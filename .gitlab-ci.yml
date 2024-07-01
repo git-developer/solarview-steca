@@ -1,8 +1,8 @@
 include:
-  remote: 'https://github.com/git-developer/solarview-base/raw/v1.12.1/.gitlab-ci.yml'
+  remote: 'https://github.com/git-developer/solarview-base/raw/main/.gitlab-ci.yml'
 
 variables:
-  DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/v1.12.1/Dockerfile'
+  DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/main/Dockerfile'
   BUILD_ARGS: 'APP_NAME=steca-fb'
   IMAGE_TITLE: 'SolarView Steca-Proxy'
   UPDATE_CHECK_URLS: 'http://www.solarview.info/downloads/steca-fb.zip'
